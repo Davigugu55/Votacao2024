@@ -118,15 +118,6 @@ h3{
     border-radius: 30px; /* You can set your desired radius here */
 }
 
-.tableStyle {
-    width: 100%;
-    border-collapse: collapse;
-    background-color: #00052E;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    border-radius: 10px;
-    overflow: hidden;
-}
-
 .candidates-compare {
     display: flex;
     justify-content: space-around;
@@ -144,4 +135,32 @@ h3{
 
 .candidate {
     text-align: center;
+}
+
+.tableStyle {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: #00052E;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    overflow: hidden;
+    color: white;
+    text-align: center;
+}
+
+.tableStyle th, .tableStyle td {
+    padding: 15px;
+    border-bottom: 1px solid #ddd;
+}
+
+.tableStyle tr:hover {
+    background-color: #575757;
+}
+
+.tableStyle tr:first-child td {
+    border-top: none;
+}
+
+.tableStyle td {
+    color: #fff;
 }
