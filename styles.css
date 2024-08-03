@@ -69,6 +69,13 @@ h2 {
     font-size: 60px;
 }
 
+.compare-title {
+    color: #1A8326;
+    font-family: 'Inria Serif', serif;
+    font-style: italic;
+    /* font-size: 60px; */
+}
+
 h3{
     color: white;
 }
