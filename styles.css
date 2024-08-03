@@ -45,6 +45,10 @@
     justify-content: center;
     height: 70px;
     color: #1A8326;
+    font-family: 'Inria Serif', serif;
+    font-size: 25px;
+    font-weight: bolder;
+    font-style: italic;
 }
 
 body {
