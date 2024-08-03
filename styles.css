@@ -117,3 +117,31 @@ h3{
 .custom-rounded {
     border-radius: 30px; /* You can set your desired radius here */
 }
+
+.tableStyle {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: #00052E;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.candidates-compare {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.candidate-image {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    object-fit: cover;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+}
+
+.candidate {
+    text-align: center;
+}
